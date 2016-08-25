@@ -1,0 +1,287 @@
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.header-text{
+	padding-top:20px;
+	padding-bottom:20px;
+	font-size: 36px;
+}
+
+.col-100 {
+	width: 100%;
+}
+.bor-bot-2ccc{
+	border-bottom: 2px solid #eee;
+}
+.bor-bot-6ccc{
+	border-bottom: 6px solid #eee;
+}
+.pull-left {
+	float: left;
+}
+
+.col-70 {
+	width: 70%;
+}
+
+.col-30 {
+	width: 30%;
+}
+
+.col-33 {
+	width: 33.33333%;
+}
+.col-40{
+	width: 40%
+}
+.col-60{
+	width: 60%
+}
+.pad-20-0{
+	padding: 20px 0;
+}
+.pull-right{
+	float: right;
+}
+
+/*.item-title-text span{
+	float: right;
+	margin-right: 5px;
+}*/
+.text-center{
+	text-align: center;
+}
+.qty-text{
+	max-width: 100%;
+	padding: 10px 4px;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	text-align: center;
+	font-size: 14px;
+}
+.qty-text:focus,
+.qty-text:active{
+	box-shadow: 3px 3px 0px solid blue;
+}
+a{
+	text-decoration: none;
+}
+
+a:hover,
+a:focus{
+	text-decoration: underline;
+}
+.bor-rig-1ccc{
+	border-right: 1px solid #ccc;
+}
+.item-list{
+	min-height: 200px;
+	position: relative;
+}
+.action-btn{
+	position: absolute;
+	bottom: 20px;
+}
+.pad-bot-5{
+	padding-bottom: 5px;
+}
+.edit-btn,
+.remove-btn,
+.save-later-btn{
+	padding: 5px 0;
+}
+.edit-btn{
+	padding-right: 10px;
+}
+.remove-btn{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.save-later-btn{
+	padding-left: 10px;
+}
+
+.promo-text{
+	max-width: 100%;
+	padding: 10px 4px;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	text-align: center;
+	font-size: 14px;
+	width: 130px;
+}
+.apply-btn,
+.checkout-btn{
+	width: 100px;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+.checkout-btn{
+	border-radius: 0;
+	background-color: #337ab7;
+	border-color: #2e6da4;
+}
+.checkout-btn:hover{
+	background-color: #286090;
+	border-color: #204d74;
+}
+
+@media (min-width: 768px){
+	.container {
+		width: 750px;
+	}
+}
+
+@media (min-width: 992px){
+	.container {
+		width: 970px;
+	}
+}
+
+@media (min-width: 1200px){
+	.container {
+		width: 1170px;
+	}
+}
+.left-side{
+	position:relative;
+}
+.top-head{
+	text-transform:uppercase;
+	color:#828282;
+	text-align: center;
+}
+.price-tag{
+	font-size: 40px;
+	color:#000000;
+}
+.doller-sign{
+	margin-right: 5px;
+}
+.product-color{
+	display: inline-block;
+	width: 30px;
+	height: 18px;
+	border: solid 1px #c7c7c7;
+	vertical-align: top;
+	margin-top: 2px;
+	margin-left: 5px;
+}
+.gray{
+	background:white;
+}
+.green{
+	background:#62bd71;
+}
+.blue{
+	background:#1169BD;
+}
+.red{
+	background:#ED99A8;
+}
+.yellow{
+	background:#F9F8E6;
+}
+.modal-body{
+	background-color: white;
+}
+.modal-content{
+	margin-top: 100px;
+	padding-left: 70px;
+}
+select {
+
+
+	background-color: white;
+	border: thin solid #c7c7c7;
+	border-radius: 4px;
+	display: inline-block;
+	font: inherit;
+	line-height: 1.5em;
+	padding: 0.5em 3.5em 0.5em 1em;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+label {position:relative}
+label:after {
+	content:'>';
+	font:20px "Consolas", monospace;
+	color:#aaa;
+	-webkit-transform:rotate(90deg);
+	-moz-transform:rotate(90deg);
+	-ms-transform:rotate(90deg);
+	transform:rotate(90deg);
+	right:8px;
+	top:-2px;
+	padding:0 0 2px;
+	position:absolute;
+	pointer-events:none;
+}
+label:before {
+	content:'';
+	right:6px; top:0px;
+	width:20px; height:20px;
+	position:absolute;
+}
+.checkout-btn.col-100{
+	width:100%;
+}
+.product-color{
+	cursor:pointer;
+}
+
+
+.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+.modalDialog > div {
+	width: 700px;
+	position: relative;
+	margin: 5% auto;
+	padding: -1px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+	background: -moz-linear-gradient(#fff, #999);
+	background: -webkit-linear-gradient(#fff, #999);
+	background: -o-linear-gradient(#fff, #999);
+}
+.close {
+	background: white;
+	color: rgb(204,204,204);
+	line-height: 30px;
+	position: absolute;
+	right: 0px;
+	text-align: center;
+	top: 10px;
+	width: 50px;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+.close:hover {
+	background: #00d9ff;
+}
