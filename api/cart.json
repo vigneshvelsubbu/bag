@@ -6,8 +6,8 @@
          "p_variation":"solid green",
          "p_style":"ms13kt1906",
          "p_selected_color":{  
-            "name":"blue",
-            "hexcode":"#1169BD"
+            "name":"green",
+            "hexcode":"#A3D2A1"
          },
          "p_selected_size":{  
             "name":"small",
@@ -47,7 +47,7 @@
                }
             ]
          },
-         "p_quantity":1,
+         "p_quantity":3,
          "p_originalprice":11.0,
          "p_price":11.0,
          "c_currency":"$"
